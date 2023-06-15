@@ -8,8 +8,33 @@ Flutter Monorepo is a centralized repository that enables cross-platform app dev
 ## How to use
 1. Use template or clone this repository
 2. Makesure melos by `dart pub global activate melos` or skip this step if already installed
-3. execute `melos bootstrap`
+3. Execute `melos bootstrap`
 4. Done. Run example app by `cd apps/example` then `flutter run`
+
+## How to generate new app
+1. `cd apps`
+2. `flutter create app_name`
+
+## How to generate new package
+1. `cd packages`
+2. `flutter create --template=package package_name`
+
+## How to integrate my package to app
+1. Go to your app folder
+2. Open pubspec.yaml
+3. Add dependency 
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  uikit:
+    path: ../../packages/uikit
+  utils:
+    path: ../../packages/utils
+  your_package:
+    path: ../../packages/your_package
+```
+4. Execute `melos bootstrap`
 
 ## File Structure
 ```
