@@ -1,5 +1,5 @@
 # Flutter Monorepo Template
-Flutter Monorepo is a centralized repository that enables cross-platform app development using Flutter in an efficient and highly scalable manner. This monorepo provides a structured development approach and allows development teams to share business logic, resources, and components across Android, iOS, and web applications.
+Flutter Monorepo is a centralized repository that enables cross-platform app development using Flutter in an efficient and highly scalable manner. This monorepo provides a structured development approach and allows development teams to share business logic, resources, and components across Android, iOS, linux, macos, windows and web applications.
 
 ## Tech Stacks
 - [Flutter](https://flutter.dev/)
@@ -7,7 +7,7 @@ Flutter Monorepo is a centralized repository that enables cross-platform app dev
 
 ## How to use
 1. Use template or clone this repository
-2. Makesure melos by `dart pub global activate melos` or skip this step if already installed
+2. Install melos by `dart pub global activate melos` or skip this step if already installed
 3. Execute `melos bootstrap`
 4. Done. Run example app by `cd apps/example` then `flutter run`
 
