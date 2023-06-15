@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: uikit,utils
+dependency_overrides:
+  uikit:
+    path: ../../packages/uikit
+  utils:
+    path: ../../packages/utils
