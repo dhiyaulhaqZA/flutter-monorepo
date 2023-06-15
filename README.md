@@ -1,5 +1,5 @@
 # Flutter Monorepo Template
-Flutter Monorepo is a centralized repository that enables cross-platform app development using Flutter in an efficient and highly scalable manner. This monorepo provides a structured development approach and allows development teams to share business logic, resources, and components across Android, iOS, linux, macos, windows and web applications.
+Flutter Monorepo is a centralized repository that enables cross-platform app development using Flutter in an efficient and highly scalable manner. This monorepo provides a structured development approach and allows development teams to share business logic, resources, and components across multiple apps on Android, iOS, linux, macos, windows and web applications.
 
 ## Tech Stacks
 - [Flutter](https://flutter.dev/)
