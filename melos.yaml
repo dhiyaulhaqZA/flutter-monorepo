@@ -15,3 +15,4 @@ scripts:
     exec: flutter pub outdated
   test:
     exec: flutter test
+  run:example: melos exec --scope="example" -- flutter run 
